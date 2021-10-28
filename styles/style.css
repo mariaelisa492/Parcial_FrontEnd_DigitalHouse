@@ -20,6 +20,10 @@ body {
 	padding: 20px;
 }
 
+.titlePrincipal{
+	visibility: hidden;
+}
+
 .logo__nav {
 	line-height: 80px;
 	padding: 0 20px;
@@ -463,7 +467,13 @@ body {
         flex-direction: column;
         text-align: center;
         height: 250px;
+		font-size: 30px;
+		padding: 0 10px 0 10px;
     }
+	.divContainer__titleFooter{
+		width: 350px;
+	}
+	
 }
 
 
@@ -528,11 +538,10 @@ body {
 }
 
 .copyright{
-    position: absolute;
-    color:rgba(140, 140, 148, 1);
-    top: 1940px;
-    left: 1020px;
-    font-size: 10px;
+	color:rgba(140, 140, 148, 1);
+	text-align: right;
+	padding: 0 20px 10px 0;
+	background-color: rgba(30, 30, 38, 1);
 }
 
 @media (max-width: 768px) {
@@ -559,10 +568,7 @@ body {
 		margin-top: 25px;
 	}
 	.copyright{
-		top: 3280px;
-		left: 155px;
 		color:rgba(140, 140, 148, 1);
-		position: absolute;
-		width: 184px;
+		text-align: center;
 	}
 }
